@@ -33,7 +33,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/iso-st3ph
     - icon: fontawesome/solid/envelope
-      link: mailto:hello@isovault.dev
+      link: mailto:stephon@ayoskip.info
 plugins:
   - search
   - minify:
