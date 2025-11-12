@@ -20,4 +20,4 @@ IsoVault plans (simple listing, contact for enterprise)
 
 </div>
 
-Contact: hello@isovault.dev
+Contact: stephon@ayoskip.info
