@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="240" height="240" role="img" aria-label="IsoVault logo">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+  </defs>
+  <!-- shield -->
+  <path d="M60 6 L18 30 v36 c0 24 20 42 42 42 s42-18 42-42 V30 L60 6 z" fill="url(#g)" stroke="#0B1220" stroke-width="2"/>
+  <!-- keyhole circle -->
+  <circle cx="60" cy="52" r="7" fill="#0B1220" />
+  <!-- keyhole stem -->
+  <rect x="57" y="59" width="6" height="12" rx="2" fill="#0B1220" />
+</svg>
