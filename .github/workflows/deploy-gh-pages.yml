@@ -14,6 +14,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+<<<<<<< HEAD
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -36,6 +37,15 @@ jobs:
           # Use a Personal Access Token stored in repo secret GH_PAGES_PAT.
           # If you named the secret differently (e.g. ISOVAULT), fall back to that.
           personal_token: ${{ secrets.GH_PAGES_PAT || secrets.ISOVAULT }}
+=======
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+>>>>>>> isovault-launch
           publish_dir: ./site
           publish_branch: gh-pages
           allow_empty_commit: true
