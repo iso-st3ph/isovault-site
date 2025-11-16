@@ -1,0 +1,23 @@
+:root {
+  --md-primary-fg-color: #0EA5E9;
+  --md-accent-fg-color: #22C55E;
+  /* Use a light text color for dark theme so contact/email text is readable */
+  --md-text-fg-color: #d6d6d6;
+}
+.hero {
+  margin-top: 2rem;
+  text-align: center;
+}
+.hero .cta {
+  display: inline-flex;
+  gap: .75rem;
+  margin-top: 1rem;
+}
+.md-card {
+  border-radius: 12px;
+}
+.pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+  gap: 1rem;
+}
